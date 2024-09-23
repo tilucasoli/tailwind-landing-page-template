@@ -28,6 +28,10 @@ module.exports = {
         "7xl": ["4.5rem", { lineHeight: "1", letterSpacing: "-0.037em" }],
       },
       keyframes: {
+        "pulse-scale": {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.1)" },
+        },
         "code-1": {
           "0%": { opacity: 0 },
           "2.5%": { opacity: 1 },
@@ -82,6 +86,9 @@ module.exports = {
           from: { transform: "translateX(0)" },
           to: { transform: "translateX(-100%)" },
         },
+      },
+      animation: {
+        "pulse-scale": "pulse-scale 2s ease-in-out infinite",
       },
     },
   },

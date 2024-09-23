@@ -1,7 +1,7 @@
 /* Buttons */
 .btn,
 .btn-sm {
-  @apply inline-flex items-center justify-center whitespace-nowrap rounded-lg text-sm font-medium transition-all;
+  @apply inline-flex items-center justify-center whitespace-nowrap rounded-[9px] text-[13px] font-semibold transition-all;
 }
 
 .btn {
@@ -9,7 +9,7 @@
 }
 
 .btn-sm {
-  @apply px-3 py-[5px] shadow;
+  @apply px-[12px] py-[7px] shadow;
 }
 
 /* Forms */
